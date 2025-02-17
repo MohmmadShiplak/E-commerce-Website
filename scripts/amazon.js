@@ -4,7 +4,6 @@ import {products} from '../data/products.js';
 
 
 
-
 /*
 
 save data 
@@ -97,7 +96,6 @@ document.querySelectorAll('.js-add-cart')
       updateCartQuantity();
     });
   });
-
 
 
 
