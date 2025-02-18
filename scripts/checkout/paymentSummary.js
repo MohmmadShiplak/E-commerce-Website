@@ -74,7 +74,5 @@ const payementSummaryHTML =
 document.querySelector(`.js-payment-summary`)
 .innerHTML=payementSummaryHTML
 
-
-
 }
 
