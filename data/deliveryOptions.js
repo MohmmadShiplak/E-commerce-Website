@@ -25,6 +25,29 @@ priceCents:999
 }]
 
 
+export function GetDeliveryOption(deliveryOptionId)
+{
+
+  //  const deliveryOptionId = cartItem.deliveryOptionId;
+    //const deliveryOption = deliveryOptions.find(option => option.id === deliveryOptionId);
+
+    let deliveryOption;
+
+    deliveryOptions.forEach((option)=>{
+
+      if(option.id===deliveryOptionId)
+      {
+          deliveryOption=option
+      }
+
+    });
+
+    return deliveryOption||deliveryOptions[0]
+
+}
+
+
+
 
 
 
