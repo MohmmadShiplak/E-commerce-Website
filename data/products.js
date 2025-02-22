@@ -83,8 +83,42 @@ extraInfoHTML()
   
 }
 
+}
+
+/*
+const date =new Date();
+
+console.log(date)
+console.log(date.toLocaleTimeString())
+*/
+
+
+/*
+const object2={
+
+a:2,
+b:this.a
+
 
 }
+*/
+
+
+/*
+function logthis()
+{
+  console.log(this)
+}
+
+logthis();
+logthis.call(`hello`)
+*/
+
+
+
+
+
+
 
   
 export const products=[
