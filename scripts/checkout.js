@@ -7,6 +7,37 @@ import {renderPaymentSummary} from './checkout/paymentSummary.js'
 //import '../data/backend-practice.js'
 //import '../data/cart-class.js'
 
+
+async function loadpage()
+{
+
+await LoadProductsFetch();
+
+await loadCart();
+/*
+await new Promise((resolve)=>{
+loadCart(()=>{
+resolve();
+
+})
+
+})
+*/
+
+renderOrderSummary()
+renderPaymentSummary()
+
+}
+
+loadpage()
+
+
+
+
+
+
+/*
+
 Promise.all([
 LoadProductsFetch(),
 new Promise((resolve)=>{
@@ -66,6 +97,7 @@ renderPaymentSummary()
 })
 
 })
+/*
 
 */
 
