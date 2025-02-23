@@ -1,8 +1,6 @@
 
 import {cart,addToCart} from  '../data/cart.js';
-import {products} from '../data/products.js';
-
-
+import {LoadProducts, products} from '../data/products.js';
 
 /*
 
@@ -14,6 +12,11 @@ save data
 
 */
 
+LoadProducts(renderProductsGrid);
+
+
+
+function renderProductsGrid(){
 
 // Save data 
 let productsHTM =``;
@@ -102,7 +105,7 @@ document.querySelectorAll('.js-add-cart')
   });
 
 
-
+}
 
 
 
