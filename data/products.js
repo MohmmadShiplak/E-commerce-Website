@@ -167,7 +167,11 @@ products=productsData.map((productDetails)=>{
   return new Product(productDetails)
   });
   console.log('load products')
+}).catch(()=>{
+console.log('unexpected error : please try again ')
 })
+
+
 
 return promise
 }

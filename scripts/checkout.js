@@ -8,24 +8,38 @@ import {renderPaymentSummary} from './checkout/paymentSummary.js'
 //import '../data/cart-class.js'
 
 
+//this is a shortcut way instead of using promise 
+
+
+
 async function loadpage()
 {
 
-await LoadProductsFetch();
+try
+{
 
-await loadCart();
-/*
-await new Promise((resolve)=>{
-loadCart(()=>{
-resolve();
+    await LoadProductsFetch();
 
-})
+      await loadCart();
+    /*
+    await new Promise((resolve,reject)=>{
+    loadCart(()=>{
+   // reject('error8')
+    resolve();
 
-})
-*/
+    })
+    
+    })
+    */
+    
+    renderOrderSummary()
+    renderPaymentSummary()
 
-renderOrderSummary()
-renderPaymentSummary()
+}catch(error)
+{
+    console.log('unexpected error . please try again later ')
+}
+
 
 }
 
