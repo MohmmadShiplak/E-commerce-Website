@@ -9,24 +9,24 @@
  
 ## Features
 
-Product Browsing: Browse and search for products.
+**Product Browsing** : Browse and search for products.
 
-Shopping Cart: Add products to the shopping cart and manage items.
+ **Shopping Cart** : Add products to the shopping cart and manage items.
 
-Order Management: Place orders and view order history.
+ **Order Management** : Place orders and view order history.
 
-Order Tracking: Track the status of your orders.
+**Order Tracking**: Track the status of your orders.
 
-Responsive Design: The website is fully responsive and adapts to different screen sizes.
+**Responsive Design**: The website is fully responsive and adapts to different screen sizes.
 
 
 ## Technologies Used
 
-HTML: Defines the structure and layout of your project.
+**HTML**: Defines the structure and layout of your project.
 
-CSS: Handles styling and responsiveness.
+**CSS**: Handles styling and responsiveness.
 
-JavaScript: Manages interactivity and integrates with external APIs.
+**JavaScript**: Manages interactivity and integrates with external APIs.
 
-External APIs: Provide product data, order processing, and order tracking functionality.
+**External APIs**: Provide product data, order processing, and order tracking functionality.
 
