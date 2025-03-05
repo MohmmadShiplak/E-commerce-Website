@@ -1,5 +1,5 @@
 
-import { loadCart } from '../data/cart.js';
+import { loadCartFetch } from '../data/cart.js';
 import { LoadProducts, LoadProductsFetch } from '../data/products.js';
 import {renderOrderSummary} from './checkout/orderSummary.js'
 import {renderPaymentSummary} from './checkout/paymentSummary.js'
@@ -18,9 +18,9 @@ async function loadpage()
 try
 {
 
-    await LoadProductsFetch();
+  //  await LoadProductsFetch();
 
-      await loadCart();
+    //  await loadCartFetch();
     /*
     await new Promise((resolve,reject)=>{
     loadCart(()=>{
@@ -31,6 +31,18 @@ try
     
     })
     */
+
+await Promise.all([
+
+
+loadCartFetch(),
+LoadProductsFetch()
+
+]);
+
+
+
+
     
     renderOrderSummary()
     renderPaymentSummary()

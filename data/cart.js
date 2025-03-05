@@ -78,7 +78,7 @@ export function removeFromCart(productId) {
   matchingItem.deliveryOptionId=deliveryOptionId;
   saveToStorage();
 }
-
+/*
 export function loadCart(fun)
 {
 
@@ -94,6 +94,23 @@ console.log(xhr.response);
 xhr.open('GET','https://supersimplebackend.dev/cart')
 
 xhr.send();
+
+}
+*/
+
+
+ export async function loadCartFetch()
+{
+
+
+const response=await fetch('https://supersimplebackend.dev/cart')
+
+const text =await  response.text();
+
+
+console.log(text)
+
+return text
 
 }
 
