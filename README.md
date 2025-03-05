@@ -18,10 +18,10 @@ Responsive Design: The website is fully responsive and adapts to different scree
 
 ## Technologies Used
 
-### HTML for structure and layout
-### CSS for styling and responsive design
-### JavaScript for interactivity and API integration
-### External APIs for product data, order processing, and order tracking
+ HTML for structure and layout
+ CSS for styling and responsive design
+ JavaScript for interactivity and API integration
+ External APIs for product data, order processing, and order tracking
 
 
 
