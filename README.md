@@ -2,7 +2,7 @@
 
 # Amazon E-Commerce Website
  
- ## This is an e-commerce website project inspired by Amazon, developed using HTML, CSS, JavaScript, and integrated with external APIs. The application allows users to browse products, add items to a shopping cart, manage their orders, and track their order status.
+ ### This is an e-commerce website project inspired by Amazon, developed using HTML, CSS, JavaScript, and integrated with external APIs. The application allows users to browse products, add items to a shopping cart, manage their orders, and track their order status.
  
 ## Features 
 
