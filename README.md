@@ -10,9 +10,13 @@
 ## Features
 
 Product Browsing: Browse and search for products.
+
 Shopping Cart: Add products to the shopping cart and manage items.
+
 Order Management: Place orders and view order history.
+
 Order Tracking: Track the status of your orders.
+
 Responsive Design: The website is fully responsive and adapts to different screen sizes.
 
 
